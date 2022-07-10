@@ -18,7 +18,7 @@ export function Counter() {
   const incrementValue = Number(incrementAmount) || 0;
 
   return (
-    <div>
+    <section>
       <div className={styles.row}>
         <button
           className={styles.button}
@@ -62,6 +62,6 @@ export function Counter() {
           Add If Odd
         </button>
       </div>
-    </div>
+    </section>
   );
 }
