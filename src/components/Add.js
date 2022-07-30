@@ -63,7 +63,14 @@ export default function Add() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box width={400} height={250} bgcolor="white" borderRadius={3} p={3}>
+        <Box
+          width={400}
+          height={250}
+          bgcolor={"background.default"}
+          color="text.primary"
+          borderRadius={3}
+          p={3}
+        >
           <Typography variant="h6" color="gray" textAlign="center">
             Create Post
           </Typography>
@@ -98,10 +105,10 @@ export default function Add() {
             variant="contained"
             aria-label="outlined primary button group"
             fullWidth
-            sx={{marginTop:"10px"}}
+            sx={{ marginTop: "10px" }}
           >
             <Button>Post</Button>
-            <Button sx={{width:"100px"}}>
+            <Button sx={{ width: "100px" }}>
               <DateRange />
             </Button>
           </ButtonGroup>
