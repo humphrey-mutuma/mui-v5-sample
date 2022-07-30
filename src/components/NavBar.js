@@ -155,7 +155,7 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <>
       <AppBar position="sticky">
         <Toolbar>
           <IconButton
@@ -232,6 +232,6 @@ export default function PrimarySearchAppBar() {
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
-    </Box>
+    </>
   );
 }
