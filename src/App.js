@@ -5,15 +5,19 @@ import Feed from "./components/Feed";
 import NavBar from "./components/NavBar";
 import RightBar from "./components/RightBar";
 import Sidebar from "./components/Sidebar";
+import Add from "./components/Add";
+
+
 function App() {
   return (
     <Box>
-      <NavBar/>
+      <NavBar />
       <Stack direction="row" spacing={2} justifyContent="center">
         <Sidebar />
         <Feed />
         <RightBar />
       </Stack>
+      <Add />
     </Box>
   );
 }
