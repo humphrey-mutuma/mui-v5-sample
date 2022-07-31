@@ -65,6 +65,14 @@ export default function Sidebar({ setMode, mode }) {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#simple_list">
               <ListItemIcon>
+                <AccountBox />
+              </ListItemIcon>
+              <ListItemText primary="Bookmarks" />
+            </ListItemButton>
+          </ListItem>{" "}
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="#simple_list">
+              <ListItemIcon>
                 <ModeNight />
               </ListItemIcon>
               <Switch
